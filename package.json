@@ -4,6 +4,7 @@
   "description": "Suite of utils and components ready to use in your project.",
   "author": "xanben@github.com",
   "dependencies": {
+    "moment": "^2.29.4",
     "prettier": "^2.8.1"
   },
   "devDependencies": {
