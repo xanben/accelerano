@@ -7,7 +7,7 @@ on:
     paths-ignore: [ 'README.md' ]
     branches: [ main ]
 jobs:
-  rollup:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
