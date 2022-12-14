@@ -3,14 +3,19 @@
   "version": "0.0.1",
   "description": "Suite of utils and components ready to use in your project.",
   "author": "xanben@github.com",
+  "license": "PRIVATE",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xanben/accelerano.git"
+  },
   "scripts": {
     "rollup": "rollup -c"
   },
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
   "files": [
     "dist"
   ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
     "moment": "^2.29.4",
